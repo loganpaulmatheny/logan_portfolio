@@ -1,0 +1,8 @@
+{
+  "doctype-first": true,
+  "tag-pair": true,
+  "attr-lowercase": true,
+  "doctype-html5": true,
+  "id-unique": true
+}
+
