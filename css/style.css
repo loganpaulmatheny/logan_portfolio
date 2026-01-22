@@ -2,6 +2,14 @@ body {
   margin: 0px;
 }
 
+header#navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
 .hero {
   margin: 100px 0px 20px;
 }
@@ -29,4 +37,43 @@ body {
 
 .card-title {
   margin-left: 10px;
+}
+
+.attribution-container {
+  margin-top: 10em;
+}
+
+/* Projects Page Enhancements from AI */
+.project-img-container {
+  height: 250px; /* Slightly taller to help avoid scrolling */
+  display: flex;
+  align-items: flex-start; /* Aligns the img element to the top of the container */
+  justify-content: center;
+  overflow: hidden;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* THIS IS THE KEY: Anchors the image content to the top */
+  object-position: top;
+  transition: transform 0.3s ease;
+}
+.card:hover .project-img-container img {
+  transform: scale(1.03);
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+/* Ensure cards don't have internal scrollbars */
+.card-body {
+  overflow: visible;
+}
+
+/* Add a bit of space between card rows */
+.g-4 {
+  --bs-gutter-y: 2.5rem;
 }
