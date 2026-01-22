@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Logan's Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="row">
+        <div class="row hero">
+          <div class="col-md-7">
+            <p>Hi, my name is Logan</p>
+            <h1 class="display-1">Make the world better with code</h1>
+
+            <p>
+              I'm a veteran of the U.S. Army and graduate student at
+              Northeastern University pursing a Masters in Computer Science. If
+              you'd like to connect let me know!
+            </p>
+            <!-- Notice the d-flex will turn the wrapper into a flexbox container -->
+            <!-- This will make it easier to center just the one element, in this case the button -->
+            <div class="d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn btn-warning justify-content-center align-items-center"
+              >
+                Contact Me
+              </button>
+            </div>
+          </div>
+
+          <!-- Very cool shadow effect on the profile image -->
+          <div class="col-md-4 p-0">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E03AQEILvTlY8TIsA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727273596779?e=1770249600&v=beta&t=RMBUkrF7ie_jC7BoY849V8acxHnBHD0OkZmHrMueCKo"
+              alt="Logan Progile image"
+              class="img-fluid shadow-3d rounded-4"
+            />
+          </div>
+        </div>
+
+        <!-- === CALL TO ACTION === -->
+
+        <div class="call-to-action">
+          <h2>What can I do for you</h2>
+        </div>
+
+        <!-- === SKILLS SECTION === -->
+        <div class="row row-cols-1 row-cols-md-3 mb-3">
+          <div class="col">
+            <div class="card mb-2 rounded-3 shadow-sm">
+              <div class="card-title">
+                <img
+                  src="assets/programming.png"
+                  alt="coding laptop"
+                  class="col-md-4"
+                />
+                <h3 class="">Engineering</h3>
+                <p>I'm an engineer who knows what it takes to ship on time.</p>
+              </div>
+              <div class="card-body d-flex flex-column p-0 ps-2 m-0">
+                <p>
+                  While primarily interested in web development, I have studied
+                  database design, lower level languages, and more.
+                </p>
+                <ul class="list-unstyled mt-0 mb-4">
+                  <li>Full Stack Expertise</li>
+                  <li>Cloud Fundamentals</li>
+                  <li>Mobile App Development</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary mt-auto mb-3"
+                >
+                  See examples of my work
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-2 rounded-3 shadow-sm">
+              <div class="card-title">
+                <img
+                  src="assets/diversity.png"
+                  alt="circle of animated people"
+                  class="col-md-4"
+                />
+                <h3 class="">Leadership</h3>
+                <p>
+                  As a former military officer, I believe leadership is a
+                  crucial element to completing projects, but also helping teams
+                  grow. I believe leadership isn't just something exercised by
+                  people with fancy titles. Here's some of the ways I can help
+                  lead teams.
+                </p>
+
+                <ul class="list-unstyled mt-0 mb-4">
+                  <li>Self-directed execution</li>
+                  <li>Coaching, teaching, and mentoring</li>
+                  <li>Empathy</li>
+                </ul>
+              </div>
+              <div class="card-body d-flex flex-column p-0 ps-2 m-0">
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary mt-auto mb-3"
+                >
+                  See examples of my work
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-2 rounded-3 shadow-sm">
+              <div class="card-title">
+                <img src="assets/chat.png" alt="chat" class="col-md-4" />
+                <h3 class="">Communication</h3>
+                <p>
+                  I believe part of being an engineer is being able to
+                  articulate your thoughts not only in code, but also verbally
+                  and written.
+                </p>
+                <p>
+                  As a member of your team, you can expect me to not only write
+                  beautiful working code, but also document it for the next
+                  engineer.
+                </p>
+              </div>
+              <div class="card-body d-flex flex-column p-0 ps-2 m-0">
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary mt-auto mb-3"
+                >
+                  See examples of my work
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+    <div class="attributions">
+      <a href="https://www.flaticon.com/free-icons/code" title="code icons"
+        >Code icons created by juicy_fish - Flaticon</a
+      >
+      <a
+        class="attributions"
+        href="https://www.flaticon.com/free-icons/diversity"
+        title="diversity icons"
+        >Diversity icons created by Flat Icons - Flaticon</a
+      >
+
+      <a
+        href="https://www.flaticon.com/free-icons/communication"
+        title="communication icons"
+        >Communication icons created by Vectors Market - Flaticon</a
+      >
+      <a class="attributions" href=" https://kristi.digital/" title="code icons"
+        >Inspired by Kritin of kristi.digital</a
+      >
+    </div>
+    <footer>
+      <div>Made by Logan with 💚</div>
+    </footer>
+  </body>
+</html>

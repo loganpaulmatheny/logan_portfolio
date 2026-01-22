@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+
+.hero {
+  margin: 100px 0px 20px;
+}
+
+.shadow-3d {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  border: 3px solid black; /* This helps define the 3D look */
+  transition: all 0.2s ease;
+}
+
+.call-to-action {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.card {
+  height: 500px;
+  overflow: auto;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.card-title {
+  margin-left: 10px;
+}
