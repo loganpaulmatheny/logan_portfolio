@@ -1,0 +1,31 @@
+{
+  "name": "logan_portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio project",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint:html": "htmlhint **/*.html --ignore navbar.html",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "npm run format:check && npm run lint:js && npm run lint:html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganpaulmatheny/logan_portfolio.git"
+  },
+  "keywords": [],
+  "author": "Logan Matheny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loganpaulmatheny/logan_portfolio/issues"
+  },
+  "homepage": "https://github.com/loganpaulmatheny/logan_portfolio#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "htmlhint": "^1.8.0",
+    "prettier": "^3.8.1"
+  }
+}

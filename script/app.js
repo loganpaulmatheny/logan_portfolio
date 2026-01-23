@@ -1,3 +1,5 @@
+/* exported copyEmail */
+
 // ===COPY EMAIL TO CLIPBOARD===
 async function copyEmail() {
   const email = "matheny.l@northeastern.edu";
@@ -39,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function setActiveLink() {
   // Get the active path name
-  const path = window.location.pathname.split("/").pop();
+  let path = window.location.pathname.split("/").pop();
   if (path === "" || path === "index.html") {
     path = "index.html";
   }
@@ -60,3 +62,5 @@ function setActiveLink() {
     }
   });
 }
+
+window.copyEmail = copyEmail; // Used to get rid of the linting error
