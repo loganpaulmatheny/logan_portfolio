@@ -11,6 +11,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 ## 📋 Table of Contents
 
 - [Objective](#objective)
+- [Design Process](#design-process)
 - [Technical Notes](#technical-notes)
 - [Features](#features)
 - [Screenshots](#screenshots)
@@ -40,6 +41,18 @@ Create a professional portfolio page that:
 
 ---
 
+## 🎨 Design Process
+
+I discuss my design process in depth in this [video](https://drive.google.com/file/d/1qzoRILKo_cW9eozBCiNz-lR9_MYpjsZH/view?usp=sharing) with the slides used [here](https://docs.google.com/presentation/d/1_b6GgP-b_mteCQfrBUNjQSePkezWoobpMDdczyK__Nk/edit?usp=sharing) in the presentation and slides I discuss:
+
+- Design process
+- User Stories
+- Prototyping
+- Wireframes
+- The entirety of my experience on the project
+
+---
+
 ## 🔧 Technical Notes
 
 ### Technologies Used
@@ -47,7 +60,7 @@ Create a professional portfolio page that:
 #### Core Technologies
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) **HTML5** - Semantic markup and structure
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS3** - Styling and responsive design
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS** - Styling and responsive design
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **ES6+ JavaScript** - Interactive functionality
 
 #### Frameworks & Libraries
@@ -59,6 +72,8 @@ Create a professional portfolio page that:
 
 - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) **Git** - Version control
 - ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=githubpages&logoColor=white) **GitHub Pages** - Hosting and deployment
+- Linux - I am using Arch Linux for devlopment 😎
+- NeoVim - my editor
 
 ---
 
@@ -266,6 +281,7 @@ This project is created for academic purposes as part of CS5610 at Northeastern 
 
 ## 🚀 Future Enhancements
 
+- [ ] About me page
 - [ ] Add dark mode toggle
 - [ ] Add blog section for technical writing
 - [ ] Integrate contact form with backend service
