@@ -133,7 +133,8 @@ The portfolio features a visually striking grid layout showcasing three core com
 Here is a link to the [demo video](https://drive.google.com/file/d/18fAY_FdSzzVNWRYY47TqxX5WWmcYvhet/view?usp=sharing)
 
 ### Homepage Hero Section
-
+**Feedback**: 
+The screenshots included do not appear to accurately reflect the actual website
 ![Homepage Screenshot](assets/home.png)
 _Clean, modern design with compelling call-to-action and professional profile image_
 
